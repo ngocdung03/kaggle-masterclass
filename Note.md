@@ -1,0 +1,33 @@
+##### Kaggle competitions
+- Featured competitions: difficult, high prize
+- Research competitions: 
+    - More experimental
+    - No prizes or points
+- Getting-started: easiest, no prizes or points
+- Playground: 
+    - One step above the Getting Started
+    - Trying out a new technique in a lower-skates setting
+    - Small prizes
+- Recruitment:
+    - Uncommon
+    - Interested participants can upload their resume for consideration by the host
+- Annual: not strict, hosted by Kaggle twice a year.
+- Limited-participation: private or invite-only.
+- Formats:
+    - Simple
+    - Two-stage
+    - Kernels only
+        - More balanced as all the users have the same hardware available.
+
+##### Kaggle datasets
+- Csv, json, SQLite, archives, Big Query
+- Creating a dataset:
+    - Setup automatic internal updates: in case data are updated periodically.
+    - Manual setting: dropdown in the data set menu header.
+    - Can create a dataset from kernel's output files
+    - Create a dataset and update it from one data source only.
+    - To use multiple datasets in your Kernels, you need to create upload them seperately.
+- Upload:
+    - Option to select any organization you're a part of.
+    - Dataset Collaboration allows multiple users to own and maintain a private or public dataset.
+    - You can make public kernals on a private dataset and vice versa.
