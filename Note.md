@@ -55,4 +55,49 @@
         - install_github("some_user/some_package")
     - Install custom packages using kernel editor: !pip install my-new-package
         - Upgrade/downgrade an existing package: !pip install my-existing-package==X.Y.Z
+- Each Kernel Editing Session is provided with:
+    - 6 hour execution time.
+    - 5GB of auto-saved disk space. Directory: /kaggle/working
+    - 16GB of temporary disk space.
+    - CPU-only: 4 core CPU and 16GB of RAM.
+    - GPU-enabled: 2 core CPU and 13GB of RAM.
+    - Internet access (beta).
+    - 100GB of combined size of all datasets.
+    - 5GB limit for output data that a kernel can write.
+    - 1 hour of idle time.
+    - Commit and Run will save your changes, end the editing session, and start a new kernal execution.
+
+##### Public API
+- It is recommended to use the command line to implement it in Python: pip install kaggle
+- Default location on Windows: $PYTHON_HOME/Scripts
+- Authenticate API: My account/API/Create New API Token
+- Using Kaggle API Directly: Provide credential at runtime: C:\Users<Windows-username>.kaggle\kaggle.json
+- Using Kaggle Command Line Interface Tool: move this token to the appropriate folder to avoid any errors when using the Kaggle API.
+- Interact with Kaggle competitions: 
+    - Using the Command Line Interface Tools: https://github.com/Kaggle/kaggle-api
+- Listing competitions and competition files: 
+    - List command which lists down all the available competitions: [Listing-competitions.jpg]
+    - List competition files: [Listing-competition-files.jpeg]
+- Download a competition using API:
+    - [Download-a-competition.jpeg]
+    - Accept the rules: kaggle.com/c/<competition-name>/rules
+- For datasets: 
+    - Can download, create, and update previous dataset versions on Kaggle.
+    - Can use third party tools along with API to schedule automatic updates of your datasets. 
+    - [API-dataset.jpeg]
+    - Listing and downloading: 
+        - [Listing-datasets.jpeg]: kaggle datasets list -s demographics
+        - [Download-datasets.jpeg]
+    - Create a new dataset:
+        - Create a folder containing the files. Copy the path to this folder.
+        - Run the following command to generate a metadata file: [Create-metadata.jpeg]
+        - Add your dataset's metadata to the generated file.
+        - Run the command to create the dataset: [Create-datasets.jpeg] 
+        - Create a new version of an existing dataset: You need to make sure that the ID field in the metadata points to your dataset. Check in the JSON file. Once everything is set up, you need to run the following command: [Update-datasets.jpeg] - must provide a message
+        - Download metadata for an existing dataset.
+        - Check status of created datasets.
+- Interact with Kernels:
+    - [Interact-Kernels.jpeg]
+
+
 
