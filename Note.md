@@ -98,6 +98,17 @@
         - Check status of created datasets.
 - Interact with Kernels:
     - [Interact-Kernels.jpeg]
-
-
+- To download Kernel metadata, pull it
+- Push and pull a kernel
+- Checking status and output of a kernel
+- Creating and running a new Kernel: steps similar to dataset
+    - [Basic-example-of-kernel-metadata.jpeg]
+    - To create and run, run the command: kaggle kernels push -p/path/to/kernel
+- Create and run a new version:
+    - Download Kernel's most recent code and metadata files: kaggle kernels pull -k [KERNEL] -p/path/to/download -m
+    - Make sure id field in the metadata points to your kernel.
+    - Changing title (optional): also need to update the id field along with the title field in the next push, after renaming is complete
+    - Run the updated kernel: kaggle kernels push -p/path
+- Configurations: view/set/clear config values
+    - Visit the offical documentation on GitHub
 
