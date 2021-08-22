@@ -112,3 +112,10 @@
 - Configurations: view/set/clear config values
     - Visit the offical documentation on GitHub
 
+##### Survival analysis
+- Interval Censoring happens when the follow-up period which is the time between observations, is not continuous. This can be weekly, monthly, quarterly, etc.
+- Left Truncation: late entry. The subjects may have experienced the event of interest before entering the study.
+- One ofe the assumpion of Kaplan-Meier: The event of interest happens at the specified time.
+    - The estimated survival time can be more accurately measured if the examination happens frequently - time gap between the examinations is very small.
+- Cox PH regression model: including covariances
+- A fully-parametric proportional hazards model also assumes that the baseline hazard function can be parameterized according to a particular model for the distribution of the survival times.
