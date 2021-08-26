@@ -120,3 +120,7 @@
 - Cox PH regression model: including covariances
 - A fully-parametric proportional hazards model also assumes that the baseline hazard function can be parameterized according to a particular model for the distribution of the survival times.
 - There are some covariates that may not obey the proportional hazard assumption. They are allowed to still be a part of the model, but without estimating its effect. This is called stratification.
+
+### Avocado prices 
+- Time series analysis
+- Google Colab
