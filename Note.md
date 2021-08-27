@@ -122,5 +122,3 @@
 - There are some covariates that may not obey the proportional hazard assumption. They are allowed to still be a part of the model, but without estimating its effect. This is called stratification.
 
 ### Avocado prices 
-- Time series analysis
-- Google Colab
